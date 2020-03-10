@@ -5,6 +5,9 @@
   "main": "src/index.js",
   "author": "Luke Schoen <ltfschoen@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "iota.lib.js": "^0.5.2"

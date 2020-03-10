@@ -2,8 +2,8 @@ require('dotenv').config();
 
 const IOTA = require('iota.lib.js');
 const iota = new IOTA({
-	host: 'http://127.0.0.1',
-	port: 14265
+	host: "http://iota.hopto.org", //'http://127.0.0.1',
+	port: 15600 //14265
 });
 
 // Check node info (node version, footprint) and processing state (pending txs)
@@ -57,7 +57,7 @@ iota.api.sendTransfer(seed, DEPTH, MIN_WEIGHT_MAGNITUDE, transfers, options, (er
   	if (error) {
 		console.error('sendTransfer error', error);
   	} else {
-		 console.log('transactions sent!', transactions);
+		console.log('transactions sent!', transactions);
   	}
 });
 
