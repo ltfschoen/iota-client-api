@@ -1,6 +1,17 @@
+# IOTA Client API
+
+## Setup
+
+```bash
+nvm install v13.10.1 &&
+nvm use v13.10.1 &&
+yarn &&
+yarn start
+```
+
 ## Resources
 
-* IOTA Tangle Viewer -https://thetangle.org/
+* IOTA Tangle Viewer - https://thetangle.org/
 * IOTA Docs - https://docs.iota.org/
 * IOTA JavaScript Client Library - iota.lib.js
 

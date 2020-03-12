@@ -2,8 +2,8 @@ require('dotenv').config();
 
 const IOTA = require('iota.lib.js');
 const iota = new IOTA({
-	host: "http://iota.hopto.org", //'http://127.0.0.1',
-	port: 15600 //14265
+	host: 'http://127.0.0.1', // 'http://iota.hopto.org'
+	port: 15600 // 14265
 });
 
 // Check node info (node version, footprint) and processing state (pending txs)

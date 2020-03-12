@@ -1,7 +1,7 @@
 {
-  "name": "iota-test",
+  "name": "iota-client-api",
   "version": "0.0.1",
-  "description": "IOTA client",
+  "description": "IOTA Client API",
   "main": "src/index.js",
   "author": "Luke Schoen <ltfschoen@gmail.com>",
   "license": "MIT",
